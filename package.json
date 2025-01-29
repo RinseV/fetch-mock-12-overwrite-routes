@@ -1,0 +1,19 @@
+{
+  "name": "fetch-mock-12-overwrite-routes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:11": "pnpm add fetch-mock@11 && vitest index11",
+    "test:12": "pnpm add fetch-mock@12 && vitest index12"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "fetch-mock": "^12.2.1",
+    "jsdom": "25",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.4"
+  }
+}
